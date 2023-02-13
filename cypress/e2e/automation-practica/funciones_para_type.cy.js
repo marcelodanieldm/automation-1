@@ -9,6 +9,7 @@ describe("Funciones para type",() =>{
         cy.wait(1500)
 
         cy.get("body > header > div > form").type('notebook {enter}')
+        //test
 
 
     })
